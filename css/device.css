@@ -1,0 +1,119 @@
+.thumbnail img{
+    width: 100%;
+}
+
+header .container{ 
+    height: 70px;
+    background-color: #3B3B3B; 
+    margin: 0 auto;
+    overflow: visible;
+    position:fixed;    
+}
+
+header .title{
+    /* height: 100%; */
+    float: left;
+}
+
+main .row {
+    overflow: hidden;
+    /* height: 700px; */
+    height: 
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+header .nav{
+   /* height: 100%; */
+   /* font-size: 16px; */
+   overflow: auto;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.menu>li{
+    float: left;
+    width: 20%;
+    /* padding-top: 24px; */
+    list-style-type: none;
+}
+
+.menu li a{   /* 滑鼠滑入展開次選單*/
+    display: block;
+    color: white;
+    /* font-size: 18px; */
+    /* background-color: #3B3B3B; */
+    /* height: 40px;
+    line-height: 40px; */
+    /* text-align: center; */
+}
+
+.sub_menu{
+    display: none;  
+}
+
+.menu a:hover{ /* 滑鼠滑入按鈕變色*/
+    color: orangered;
+}
+
+.dropdown:hover .sub_menu{
+    z-index:1;     /*優先級顯示*/
+    display: block;
+    position: absolute;
+    width: 140px;container-fluid
+    box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.3);
+}
+
+.sub_menu li{
+    clear: both;
+    background-color: ;
+}
+
+.sub_menu li a{
+    background-color: white;
+    color: black;
+}
+
+
+main img{
+    display: block;
+    padding-top: 70px;
+}
+
+main .row{
+    overflow: hidden;
+    /* height: 700px; */
+}
+
+p{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #334249;
+    line-height: 1.8;
+    font-weight: 300;
+    padding: 20px;
+    font-weight: 300;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    header .container{ 
+    left: 50% ;
+    margin-left: -375px;     
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    header .container{ 
+    left: 50% ;
+    margin-left: -485px;     
+    }    
+}
+
+@media screen and (min-width:1200px){
+    header .container{ 
+    left: 50% ;
+    margin-left: -585px;     
+    }        
+}

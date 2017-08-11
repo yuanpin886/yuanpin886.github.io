@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'SanchiaoHeader';
+    src: url('../font/SanchiaoHeader.eot'); /* IE9 兼容模式 */
+    src: local('SanchiaoHeader'), /* 指定使用者電腦裡的字體名稱 */
+    url('../font/SanchiaoHeader.eot#iefix') format('embedded-opentype'), /* IE6 - IE8 */
+    url('../font/SanchiaoHeader.woff') format('woff'), /* 現代瀏覽器 */
+    url('../font/SanchiaoHeader.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/SanchiaoHeader.svg#LindenHill') format('svg');/* iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title h1{
+    font-family: 'SanchiaoHeader';
+    /* font-size: 2.6em;  */
+    /* font-size: 3.1vw; */
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: white;
+    /* padding-left: 50px; */
+    padding-top: 14px; 
+}
+
+@media screen and (max-width:768px){
+    .title h1{
+        font-size: 2.0em;
+        padding-top: 4px;
+        padding-left: 10px;
+    }
+    .menu li a{
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .menu > li{
+        padding-top: 4px;
+        /* text-align: center; */
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .title h1{
+        font-size: 2.0em;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .menu li a{
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .menu > li{
+        padding-top: 30px;
+    }    
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .title h1{
+        font-size: 2.4em;
+        padding-top: 14px;
+        padding-left: 30px;
+    } 
+    .menu li a{
+        font-size: 16px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .menu > li{
+        padding-top: 30px;
+    }      
+}
+
+@media screen and (min-width:1200px){
+    .title h1{
+        font-size: 2.6em;
+        padding-top: 14px;
+        padding-left: 50px;
+        
+    }
+    .menu li a{
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .menu > li{
+        padding-top: 24px;
+    }    
+}
